@@ -241,8 +241,8 @@ byMonthDonedf$x = 1:length(allMonths)
 monthDonePlot <- ggplot(byMonthDonedf, aes(x=x, y=y)) +
   geom_line() +
   geom_point() +
-  labs(x = "Months", y = "Mean Time Over/Underestimation")+
-  ggtitle("Over/Underestimation Over Time - Done Only")
+  labs(x = "Months", y = "Mean Over/Underestimation")+
+  ggtitle("Over/Underestimation Over Time - Core Tasks")
 
 monthDonePlot + scale_x_continuous(breaks = januaryPositions,
                                labels = yearLabels)
@@ -265,7 +265,7 @@ df_Done_Only$rolling_difference_mean <- roll_mean(df_Done_Only$difference, n = 5
 ggplot(df_Done_Only, aes(x = date, y = rolling_difference_mean)) +
   geom_point() +
   labs(x = "Months", y = "Time Over/Underestimation")+
-  ggtitle("Over/Underestimation, Done Only - 50 Task Rolling Average")
+  ggtitle("Over/Underestimation, Core Tasks - 50 Task Rolling Average")
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #IDENTIFYING MOST COMMON TAGS
@@ -569,17 +569,6 @@ data$maybe_status <- grepl(pattern = "Maybe", x= data$Status)
 done_data <- data %>%
   subset(Status == "Done_Only" | Status == "Done_Eventually" | Status == "Done_Never")
 
-no_planning_data <- data %>%
-  subset(!grepl(pattern = "planning", x = X.words))
-
-#I think I can delete this too, since I have the core tasks data and I can 
-#account for planning tasks in the model now. 
-
-#Subset: no planning, no maybes
-no_planning_no_maybe_data <- no_planning_data %>%
-  subset(maybe_status == FALSE)
-
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #WHAT'S THE TIME HORIZON FOR THE INFLUENCE OF TASK EXPERIENCE?
 #MULTIPLE REGRESSIONS
@@ -812,7 +801,7 @@ ggplot(done_data, aes(x = as.numeric(row.names(done_data)), y = rolling_estimate
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # PROPORTION OF TASKS COMPLETED - ROLLING AVERAGE
 
-data_end_cut <- data[1:max(which(no_planning_data$date == "2018-10-16")),]
+data_end_cut <- data[1:max(which(data$date == "2018-10-16")),]
 #After this date ("2018-10-17") he stops marking any tasks as done.
 
 #No Planning Data
