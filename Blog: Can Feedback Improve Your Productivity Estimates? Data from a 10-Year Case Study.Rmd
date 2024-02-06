@@ -2,9 +2,7 @@
 title: "Can Feedback Improve Your Productivity Estimates? Data from a 10-Year Case Study"
 author: "Ollie Bray"
 date: "2024-02-06"
-output:
-  html_document:
-    toc: true
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
