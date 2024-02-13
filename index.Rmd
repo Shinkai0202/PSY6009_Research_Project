@@ -76,7 +76,7 @@ The first surprise was that there was no overall tendency towards the planning f
 As for the next prediction; whether repeated experience with a specific task led to increased estimation accuracy, the answer was yes! The more Borgatti had completed a task in the past, the better his estimations were. We explored the time horizon for this effect and found that the relationship between total task experience and accuracy increased for up to 5.5 months prior, beyond which the effect began to decrease. 
 
 
-![Figure 2. Mean absolute error over number of repetitions of a specific task over the previous 5.5 months.](/03_figures/Mean%20Absolute%20Log%20Error%20Over%20Task%20Experience.png)
+![Figure 2. Mean absolute error over number of repetitions of a specific task over the previous 5.5 months.](03_figures/Mean%20Absolute%20Log%20Error%20Over%20Task%20Experience.png)
 
 Our final and spiciest prediction was that feedback would eventually lead to an increased general purpose estimation ability. Was this borne out in the data? 
 
@@ -84,13 +84,13 @@ Our final and spiciest prediction was that feedback would eventually lead to an 
 
 
 
-![Figure 3. The rolling mean of the absolute value of the log error over all the tasks in the dataset, with a rolling window of 500 tasks.](/03_figures/rolling%20mean%20abs%20error%20over%20tasks.png)
+![Figure 3. The rolling mean of the absolute value of the log error over all the tasks in the dataset, with a rolling window of 500 tasks.](03_figures/rolling%20mean%20abs%20error%20over%20tasks.png)
 
 This tendency was towards increasing overestimation.
 
 Estimate performance also decreased across the dataset according to two other measures: the probability of completing a planned task on a given day, and the accuracy in estimating the amount of actual time spent working on a given day.
 
-![Figure 4. Rolling mean daily estimated pomodoro sessions, daily actual pomodoro sessions, and the ratio of actual/estimated. The left y axis is the number of estimated and actual sessions, and the right y axis is the proportion](/03_figures/rolling%20estimate%20actual%20and%20proportion.png)
+![Figure 4. Rolling mean daily estimated pomodoro sessions, daily actual pomodoro sessions, and the ratio of actual/estimated. The left y axis is the number of estimated and actual sessions, and the right y axis is the proportion](03_figures/rolling%20estimate%20actual%20and%20proportion.png)
 
 # What Gives?
 
