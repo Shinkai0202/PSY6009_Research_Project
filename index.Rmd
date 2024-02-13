@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Have you noticed that tasks always take longer than you think they will? Well, if you have, you’re in good company, because according to research, that’s what happens to literally everybody, literally all the time. From popping to the shops to get some milk, to massive transnational infrastructure projects, wherever a human being is called upon to estimate how long it’ll take them to do something, you’ll find the “planning fallacy”; the tendency to underestimate how long a task will take.
 
-![](03_figures/Blog%20meme.png)
+![](03_figures/meme.png)
 
 The weird thing about the planning fallacy is that we all have a lot of experience of being wrong about our estimates, but keep being wrong next time anyway. As a species our temporal over-optimism has been refuted continually for millennia; you’d think we would have gotten better at this by now. Why is the planning fallacy so tenacious, and how many times can we be wrong until we learn our lesson and start making better estimates?
 
