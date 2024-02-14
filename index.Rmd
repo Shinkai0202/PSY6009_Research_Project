@@ -127,7 +127,7 @@ There are probably superestimators out there, a la Philp Tetlock’s Superforeca
 
 Whether repeated feedback on how long tasks actually take is enough to make better estimators of people is still a tempting prospect. It could be a fairly simple and valuable intervention to employ if so. Another research direction would be to get multiple participants to use a similar system to Borgatti, ensure that they are consciously reflecting on the feedback, and determine whether any general improvement in estimation ability is observed.
 
-If you would like to read the whole project and see the code I used, you can do so here: https://github.com/Shinkai0202/PSY6009_Research_Project 
+If you would like to read the whole project with more detailed analysis and less interesting prose, and see the code I used, you can do so here: https://github.com/Shinkai0202/PSY6009_Research_Project 
 
 If you would like the original dataset along with a thoughtful analysis by Derek Jones, you can find those here: https://github.com/Derek-Jones/renzo-pomodoro 
 
