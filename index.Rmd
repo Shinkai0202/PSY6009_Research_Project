@@ -76,7 +76,7 @@ The first surprise was that there was no overall tendency towards the planning f
 As for the next prediction; whether repeated experience with a specific task led to increased estimation accuracy, the answer was yes! The more Borgatti had completed a task in the past, the better his estimations were. We explored the time horizon for this effect and found that the relationship between total task experience and accuracy increased for up to 5.5 months prior, beyond which the effect began to decrease. 
 
 
-![Figure 2. Mean absolute error over number of repetitions of a specific task over the previous 5.5 months.](03_figures/Mean%20Absolute%20Log%20Error%20Over%20Task%20Experience.png)
+![Figure 2. Mean absolute error over number of repetitions of a specific task over the previous 5.5 months.](03_figures/maleote.png)
 
 Our final and spiciest prediction was that feedback would eventually lead to an increased general purpose estimation ability. Was this borne out in the data? 
 
