@@ -71,12 +71,14 @@ As noted, this dataset covered a span of almost ten years of work days. It consi
 The first surprise was that there was no overall tendency towards the planning fallacy; on average, task durations were overestimated, not underestimated. The planning fallacy was observed, but, running counter to prior research, only for very short - single pomodoro - tasks, and only to a very small degree on average. In another flagrant insult to our very reasonable and well-justified predictions, with longer task lengths, overestimation actually increased. It was almost as though Borgatti hadn’t familiarised himself with the relevant psychological research and didn’t know what his brain was supposed to be doing.
 
 
-![Figure 1. Degree of estimation bias, using the log difference measure, over increasing task length estimates, with confidence intervals (1.96 times Standard Error). Values above 0 indicate overestimation, and below 0 indicate underestimation.](03_figures/bias%20over%20estimate%20-%20all.png)
+![Figure 1. Degree of estimation bias over increasing task length estimates, with confidence intervals (1.96 times Standard Error). Values above 0 indicate overestimation, and below 0 indicate underestimation.](03_figures/bias%20over%20estimate%20-%20all.png)
+
 
 As for the next prediction; whether repeated experience with a specific task led to increased estimation accuracy, the answer was yes! The more Borgatti had completed a task in the past, the better his estimations were. We explored the time horizon for this effect and found that the relationship between total task experience and accuracy increased for up to 5.5 months prior, beyond which the effect began to decrease. 
 
 
 ![Figure 2. Mean absolute error over number of repetitions of a specific task over the previous 5.5 months.](03_figures/maleote.png)
+
 
 Our final and spiciest prediction was that feedback would eventually lead to an increased general purpose estimation ability. Was this borne out in the data? 
 
